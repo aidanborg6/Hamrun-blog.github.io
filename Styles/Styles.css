@@ -1,0 +1,9 @@
+/* Class called "red" that can be used wherever we want */
+.red{
+    color:red;
+}
+
+ol li {
+    color: rgb(139, 110, 75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
