@@ -7,3 +7,10 @@ ol li {
     color: rgb(139, 110, 75);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+table, table tr td, table tr th{
+    border: 1px black solid;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
