@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                Hamrun Spartans
+            </a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#" class="button">
+                Contact Us
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <main>
+                    <form 
+                    action="mailto:aidanborg5@gmail.com" 
+                    method="post"
+                    enctype="plain text/plain">
+                        <div class="container">
+                            <!--First and last name-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="first-name-input">First Name</label>
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
+                                </div>
+                                <div class="col-6">
+                                <label for="last-name-input">Last Name</label>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Borg">
+                                </div>
+                                
+                            </div>
+
+                            <!--Email Address-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="email-address">Email Address</label>
+                                    <input type="text" id="email-address-input" placeholder="joeborg@gmail.com">
+                                </div>
+                                
+                                </div>
+
+                                <!-- Topic Drop-Down List-->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="">Topic</label>
+                                        <select name="Topic" id="">topic-dropdown-list
+                                            <option value=""></option>
+                                            <option value="tech-support">Technical Support</option>
+                                            <option value="review">Review</option>
+                                            <option value="suggestions">Suggestions</option>
+                                        </select>
+                                    </div>
+                                    
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" id="subject-input" name="subject" placeholder="Please Help!">
+                                </div>
+                                
+                                <!---->
+                            </div>
+
+                            <!--Message-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="message-textarea">Message</label>
+                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here ..."></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Buttons-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit">Send</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="reset">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+        &copy 2023, Aidan J Borg
+        </div>
+    </footer>
+</body>
+</html>
