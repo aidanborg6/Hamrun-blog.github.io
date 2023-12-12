@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">
@@ -22,13 +21,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="blog-list.html" class="nav-link">
                         Blog
                     </a>
                 </li>
             </ul>
 
-            <a href="#" class="button">
+            <a href="contact.html" class="button">
                 Contact Us
             </a>
         </div>
@@ -37,8 +36,10 @@
 
     <div class="container">
         <div class="row">
+            <!-- Main Contact Form -->
             <div class="col-8">
                 <main>
+
                     <form 
                     action="mailto:aidanborg5@gmail.com" 
                     method="post"
@@ -47,11 +48,11 @@
                             <!--First and last name-->
                             <div class="row">
                                 <div class="col-6">
-                                    <label for="first-name-input">First Name</label>
+                                    <label for="first-name-input">First Name :</label>
                                     <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
                                 </div>
                                 <div class="col-6">
-                                <label for="last-name-input">Last Name</label>
+                                <label for="last-name-input">Last Name :</label>
                                     <input type="text" id="last-name-input" name="last-name" placeholder="Borg">
                                 </div>
                                 
@@ -60,7 +61,7 @@
                             <!--Email Address-->
                             <div class="row">
                                 <div class="col-12">
-                                    <label for="email-address">Email Address</label>
+                                    <label for="email-address">Email Address :</label>
                                     <input type="text" id="email-address-input" placeholder="joeborg@gmail.com">
                                 </div>
                                 
@@ -69,7 +70,7 @@
                                 <!-- Topic Drop-Down List-->
                                 <div class="row">
                                     <div class="col-12">
-                                        <label for="">Topic</label>
+                                        <label for="">Topic :</label>
                                         <select name="Topic" id="">topic-dropdown-list
                                             <option value=""></option>
                                             <option value="tech-support">Technical Support</option>
@@ -83,22 +84,22 @@
                             <!-- Subject -->
                             <div class="row">
                                 <div class="col-12">
-                                    <label for="subject-input">Subject</label>
+                                    <label for="subject-input">Subject :</label>
                                     <input type="text" id="subject-input" name="subject" placeholder="Please Help!">
                                 </div>
                                 
-                                <!---->
+                                <!--message Input-->
                             </div>
 
                             <!--Message-->
                             <div class="row">
                                 <div class="col-12">
-                                    <label for="message-textarea">Message</label>
+                                    <label for="message-textarea">Message :</label>
                                     <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here ..."></textarea>
                                 </div>
                             </div>
 
-                            <!-- Buttons-->
+                            <!-- Form Buttons-->
                             <div class="row">
                                 <div class="col-6">
                                     <button type="submit">Send</button>
@@ -108,8 +109,28 @@
                                 </div>
                             </div>
                         </div>
+
                     </form>
                 </main>
+                </div>
+                <!-- Side bar -->
+            <div class="col-4">
+                <div class="contact-details">
+                    <h3>Send Mail</h3>
+                    <p>
+                        1, Hamrun,
+                        <br>
+                        Triq il-Kbira
+                        <br>
+                        Hamrun
+                    </p>
+
+                    <!-- Horizontal Rule - a separator line -->
+                    <hr>
+
+                    <h3>Email</h3>
+                    <a href="mailto:aidanborg5@icloud.com">aidanborg5@icloud.com</a>
+                </div>
             </div>
         </div>
     </div>
@@ -118,7 +139,7 @@
     <footer>
         <div class="container">
         &copy 2023, Aidan J Borg
-        </div>
+    </div>
     </footer>
 </body>
 </html>

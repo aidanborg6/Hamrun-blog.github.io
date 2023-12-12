@@ -46,6 +46,9 @@ a{
     padding: 20px;
 }
 
+/* Hover override for hyperlinks. 
+The properties here override the same properties from other classes/selectors 
+that are already applied on the same type of element. */
 a:hover{
     background-color: black;
     color: greenyellow;
