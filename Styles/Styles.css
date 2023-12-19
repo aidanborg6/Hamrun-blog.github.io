@@ -16,13 +16,13 @@
     padding:10px;
     margin:0px;
 }
+
 /*
     Basic CSS can be written using the tag (without brackets)
     followed by a set of curley brackets. Each command takes up
     its own line, and is concluded with a semi-colon.
 */
-ul li {
-    color: rgb(139, 110, 75);
+ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -33,10 +33,10 @@ ul li {
     We can also target a type of elements that is within
     another type by adding a space between the types.
 */
-table, table tr td, table tr th{
-    border: 1px black solid;
+table, table td, table th{
+    border:black solid 1px;
     border-spacing: 0px;
-    border-collapse:collapse;
+    border-collapse: collapse;
 }
 
 /*
